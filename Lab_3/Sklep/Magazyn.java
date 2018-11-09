@@ -14,7 +14,7 @@ import java.util.Objects;
  * @author Piotr
  */
 public class Magazyn extends Produkt{
-    int ilosc;
+    public int ilosc;
     
     Magazyn(String n, double c, int i)
     {
@@ -39,6 +39,11 @@ public class Magazyn extends Produkt{
         int dostawa = ilosc + i;
         ilosc = dostawa;
     }
+    public void zdejmijZmagazynu(int i)
+    {
+        int dostawa = ilosc - i;
+        ilosc = dostawa;
+    }
     
     public boolean equals(Object other)
     {
@@ -58,6 +63,11 @@ public class Magazyn extends Produkt{
                 this.zmienIlosc(n.getIlosc());
         else
             lista.add(n);
+    }
+    @Override
+    public String toString()
+    {
+        return "Produkt["+nazwa+", "+ cenaHurt+", "+ ilosc +"]";
     }
     
 }
