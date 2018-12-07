@@ -1,0 +1,4 @@
+Pawel, Domagala, Anastezjolog, Kreta, 2, Wloclawek, 87800
+Adam, Klan, Kardiolog, Góralska, 224, Gdansk, 80176
+Jan, Kowal, Okulista, Jasieniowa, 12, Gdynia, 72080
+Ola, Chwast, Psychiatra, Smocza, 8, Sopot, 80800
